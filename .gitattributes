@@ -1,0 +1,14 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+data.csv filter=lfs diff=lfs merge=lfs -text
+data_by_artist.csv filter=lfs diff=lfs merge=lfs -text
+data_by_year.csv filter=lfs diff=lfs merge=lfs -text
+data_w_genres.csv filter=lfs diff=lfs merge=lfs -text
+Music_Recommendation_System.ipynb filter=lfs diff=lfs merge=lfs -text
+.data.csv filter=lfs diff=lfs merge=lfs -text
+.data_by_artist.csv filter=lfs diff=lfs merge=lfs -text
+.data_by_year.csv filter=lfs diff=lfs merge=lfs -text
+.data_w_genres.csv filter=lfs diff=lfs merge=lfs -text
+.Music_Recommendation_system.ipynb filter=lfs diff=lfs merge=lfs -text
